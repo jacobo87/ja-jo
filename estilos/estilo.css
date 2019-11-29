@@ -1,91 +1,49 @@
-* {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.telefono {
-    color: white;
-    background-color: rosybrown;
-}
-
-
-/* estilos de pie de página */
-
-#pie {
-    color: grey;
-    text-align: center;
-    border-top: 1px solid #7a7a78;
-}
-
-
-/* Pseudoclases */
-
-
-/* Pasar ratón por encima */
-
-a:hover {
-    color: yellow;
-    background-color: black;
-}
-
-
-/*enlace sin visitar */
-
-a:link {
-    color: red;
-}
-
-
-/*enlace ya visitado */
-
-a:visited {
-    color: grey;
-}
-
-
-/*Mientras pulso*/
-
-a:active {
-    text-decoration: none;
-}
-
-
-/* Cuando tiene el foco */
-
-a:focus {
-    font-weight: bold;
-}
-
-
-/* formularios */
-
-#input-1:focus {
-    background-color: salmon;
-}
-
-#input-2:focus {
-    background-color: salmon;
-}
-
-
-/* Mostrar un input en cada linea */
-
-input {
-    display: block;
-    /* margen con lo que tengo a mi alrededor */
-    margin-bottom: 10px;
-}
-
-
-/* Borde para el legend */
-
-legend {
-    /* ancho-estilo-color */
-    border: 1px solid blue;
-}
-
-
-/** Espacio de un contenedor respecto a su contenido **/
-
-fieldset {
-    padding: 20px;
-}
+            * {
+                font-family: 'Times New Roman', Times, serif;
+            }
+            /* estilos para el encabezado página */
+            
+            header {
+                background-color: cadetblue;
+                padding: 2%;
+                text-decoration: underline;
+            }
+            
+            header h1 {
+                text-align: center;
+            }
+            /* estilos para la barra de navegacion */
+            
+            nav ul li {
+                /* Tipo de letra */
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                /* Tamaño de la caja*/
+                width: 10%;
+                /* Borde en px, tipo y color*/
+                border: 3px solid #73AD21;
+                /* Tamaño de relleno */
+                padding: 10px;
+                /* bloquea el display */
+                display: block;
+                /* Margen a los botones para separarlos */
+                margin-bottom: 10px;
+            }
+            /* estilos para el articulo de la página */
+            
+            article {
+                text-align: left;
+                margin-block: ;
+                padding: 1%;
+            }
+            
+            article h2 {
+                text-align: center;
+            }
+            /* estilos de pie de página */
+            
+            #pie {
+                color: grey;
+                text-align: center;
+                border-top: 1px solid #7a7a78;
+                padding: 2%;
+            }
