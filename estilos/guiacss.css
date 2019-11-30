@@ -70,3 +70,61 @@ legend {
 fieldset {
     padding: 20px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+nav ul li {
+    /* Tipo de letra */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Tamaño de la caja*/
+    width: 10%;
+    /* Borde en px, tipo y color*/
+    border: 3px solid #d69209;
+    /* Tamaño de relleno */
+    padding: 10px;
+    /* bloquea el display */
+    display: block;
+    /* Margen a los botones para separarlos */
+    margin-bottom: 10px;
+    /* Navegacion lateral fija de altura completa */
+    position: fixed;
+    height: 70%;
+    overflow: auto;
+}
+
+
+/* Estilo solo para los li a */
+
+li a {
+    display: block;
+    /* Texto color negro y separacion de 1pixel */
+    color: white;
+    padding: 1px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #d69209;
+    color: white;
+}

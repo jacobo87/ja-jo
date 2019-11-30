@@ -7,18 +7,22 @@
                     
                     body {
                         font: 24px Helvetica;
-                        background: whitesmoke;
+                        /* Color de fondo */
+                        background: #e0deda;
+                        color: black;
+                        /* Tamaño de margen para body */
+                        margin: 0;
                     }
                     /* estilos para el encabezado página */
                     
                     header {
                         /* Tamaño de la fuente de la cabezera */
                         font-size: 130%;
-                        color: white;
+                        color: black;
                         /* Color de fondo */
-                        background-color: cadetblue;
+                        background-color: #6e9c6f;
                         /* Borde de un 1px con color y separacion */
-                        border: 1px solid #008080;
+                        border: 1px solid #6e9c6f;
                         padding: 2%;
                         text-decoration: underline;
                     }
@@ -29,60 +33,93 @@
                     }
                     /* estilos para la barra de navegacion */
                     
-                    nav ul li {
+                    nav ul {
+                        background: #e0deda;
                         /* Tipo de letra */
                         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                         /* Tamaño de la caja*/
                         width: 10%;
                         /* Borde en px, tipo y color*/
-                        border: 3px solid cadetblue;
+                        border: 3px solid #6e9c6f;
                         /* Tamaño de relleno */
                         padding: 10px;
                         /* bloquea el display */
                         display: block;
                         /* Margen a los botones para separarlos */
                         margin-bottom: 10px;
+                        /* Navegacion lateral fija de altura completa */
+                        position: fixed;
+                        height: 50%;
+                        overflow: auto;
                     }
                     /* Estilo solo para los li a */
                     
                     li a {
                         display: block;
                         /* Texto color negro y separacion de 1pixel */
-                        color: #000;
+                        color: black;
                         padding: 1px 10px;
                         text-decoration: none;
                     }
                     
                     li a:hover {
-                        background-color: cadetblue;
+                        background-color: #6e9c6f;
                         color: white;
+                    }
+                    /* Estilo seccion margen desde la izquierda class="section" */
+                    
+                    .section {
+                        margin-left: 12%;
                     }
                     /* Estilo para el articulo */
                     
                     article {
                         /* Posicion  "absoluta" respecto a la página */
-                        position: absolute;
-                        /* Posición del artículo repecto a la izquierda  250 pixeles */
-                        left: 250px;
+                        position: relative;
+                        /* Posición del artículo */
                         margin: 20px;
                         padding: 50px;
                         /* Borde, color del borde y grosor */
-                        border: 1px solid #7a7a78;
+                        border: 1px solid #6e9c6f;
                         border-radius: 7pt;
-                        background: whitesmoke;
+                        /* style="margin-left:25%;padding:1px 16px;height:1000px;"> */
                     }
-                    /* Estilo para el h2 del articulo */
+                    /* Estilo para h1 del articulo */
+                    
+                    article h1 {
+                        text-align: center;
+                        /* Tamaño de la fuente */
+                        font-size: 200%;
+                    }
+                    /* Estilo para h2 del articulo */
                     
                     article h2 {
-                        text-align: center;
+                        text-align: left;
                     }
-                    /* estilos de pie de página */
+                    /* Estido boton class="button" */
+                    
+                    .button {
+                        /* sin borde */
+                        border: none;
+                        /* Tamaño de los margenes */
+                        padding: 15px 32px;
+                        /* Tamaño de fuente */
+                        font-size: 16px;
+                        /* Color de la fuente */
+                        color: white;
+                        /* Color de fondo */
+                        background-color: #6e9c6f;
+                        /* Alineacion de texto */
+                        text-align: center;
+                        margin: 3%;
+                    }
+                    /* estilos de pie de página id="pie" */
                     
                     #pie {
                         /* Color y alineación del texto */
                         color: black;
                         text-align: center;
                         /* Crea un borde con una separación del 2% */
-                        border: 1px solid #7a7a78;
+                        border: 1px solid #6e9c6f;
                         padding: 2%;
                     }
