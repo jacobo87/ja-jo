@@ -47,6 +47,7 @@
             #pie {
                 color: grey;
                 text-align: center;
+                /* Crea un borde superior con una separación del 2% */
                 border-top: 1px solid #7a7a78;
                 padding: 2%;
             }
