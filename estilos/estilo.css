@@ -1,53 +1,80 @@
-            /* Con *, modificamos el tipo de letra para toda la web */
-            
-            * {
-                font-family: 'Times New Roman', Times, serif;
-            }
-            /* estilos para el encabezado página */
-            
-            header {
-                background-color: cadetblue;
-                padding: 2%;
-                text-decoration: underline;
-            }
-            /* Estilo para h1 */
-            
-            header h1 {
-                text-align: center;
-            }
-            /* estilos para la barra de navegacion */
-            
-            nav ul li {
-                /* Tipo de letra */
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                /* Tamaño de la caja*/
-                width: 10%;
-                /* Borde en px, tipo y color*/
-                border: 3px solid #73AD21;
-                /* Tamaño de relleno */
-                padding: 10px;
-                /* bloquea el display */
-                display: block;
-                /* Margen a los botones para separarlos */
-                margin-bottom: 10px;
-            }
-            /* estilos para el articulo de la página */
-            
-            article {
-                text-align: left;
-                padding: 1%;
-            }
-            /* Estilo para el h2 del articulo */
-            
-            article h2 {
-                text-align: center;
-            }
-            /* estilos de pie de página */
-            
-            #pie {
-                color: grey;
-                text-align: center;
-                /* Crea un borde superior con una separación del 2% */
-                border-top: 1px solid #7a7a78;
-                padding: 2%;
-            }
+                    /* Con *, modificamos el tipo de letra para toda la web */
+                    
+                    * {
+                        font-family: 'Times New Roman', Times, serif;
+                    }
+                    /* estilos para el encabezado página */
+                    
+                    header {
+                        color: white;
+                        /* Color de fondo */
+                        background-color: cadetblue;
+                        /* Borde de un 1px con color y separacion */
+                        border: 1px solid #008080;
+                        padding: 2%;
+                        text-decoration: underline;
+                    }
+                    /* Estilo para h1 */
+                    
+                    header h1 {
+                        text-align: center;
+                    }
+                    /* estilos para la barra de navegacion */
+                    
+                    nav ul li {
+                        /* Tipo de letra */
+                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        /* Tamaño de la caja*/
+                        width: 10%;
+                        /* Borde en px, tipo y color*/
+                        border: 3px solid cadetblue;
+                        /* Tamaño de relleno */
+                        padding: 10px;
+                        /* bloquea el display */
+                        display: block;
+                        /* Margen a los botones para separarlos */
+                        margin-bottom: 10px;
+                    }
+                    /* Estilo solo para los li a */
+                    
+                    li a {
+                        display: block;
+                        /* Texto color negro y separacion de 1pixel */
+                        color: #000;
+                        padding: 1px 10px;
+                        text-decoration: none;
+                    }
+                    
+                    li a:hover {
+                        background-color: cadetblue;
+                        color: white;
+                    }
+                    /* Estilo para el h2 del articulo */
+                    
+                    article h2 {
+                        text-align: center;
+                    }
+                    /* Estilo para el articulo */
+                    
+                    article {
+                        margin: 4px;
+                        padding: 5px;
+                        /* Borde, color del borde y grosor */
+                        border: 1px solid white;
+                        border-radius: 7pt;
+                        background: white;
+                        -webkit-flex: 3 1 60%;
+                        flex: 3 1 60%;
+                        -webkit-order: 2;
+                        order: 2;
+                    }
+                    /* estilos de pie de página */
+                    
+                    #pie {
+                        /* Color y alineación del texto */
+                        color: grey;
+                        text-align: center;
+                        /* Crea un borde con una separación del 2% */
+                        border: 1px solid #7a7a78;
+                        padding: 2%;
+                    }
