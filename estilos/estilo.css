@@ -3,9 +3,17 @@
                     * {
                         font-family: 'Times New Roman', Times, serif;
                     }
+                    /* Estilo para body de la página */
+                    
+                    body {
+                        font: 24px Helvetica;
+                        background: whitesmoke;
+                    }
                     /* estilos para el encabezado página */
                     
                     header {
+                        /* Tamaño de la fuente de la cabezera */
+                        font-size: 130%;
                         color: white;
                         /* Color de fondo */
                         background-color: cadetblue;
@@ -49,30 +57,30 @@
                         background-color: cadetblue;
                         color: white;
                     }
+                    /* Estilo para el articulo */
+                    
+                    article {
+                        /* Posicion  "absoluta" respecto a la página */
+                        position: absolute;
+                        /* Posición del artículo repecto a la izquierda  250 pixeles */
+                        left: 250px;
+                        margin: 20px;
+                        padding: 50px;
+                        /* Borde, color del borde y grosor */
+                        border: 1px solid #7a7a78;
+                        border-radius: 7pt;
+                        background: whitesmoke;
+                    }
                     /* Estilo para el h2 del articulo */
                     
                     article h2 {
                         text-align: center;
                     }
-                    /* Estilo para el articulo */
-                    
-                    article {
-                        margin: 4px;
-                        padding: 5px;
-                        /* Borde, color del borde y grosor */
-                        border: 1px solid white;
-                        border-radius: 7pt;
-                        background: white;
-                        -webkit-flex: 3 1 60%;
-                        flex: 3 1 60%;
-                        -webkit-order: 2;
-                        order: 2;
-                    }
                     /* estilos de pie de página */
                     
                     #pie {
                         /* Color y alineación del texto */
-                        color: grey;
+                        color: black;
                         text-align: center;
                         /* Crea un borde con una separación del 2% */
                         border: 1px solid #7a7a78;
