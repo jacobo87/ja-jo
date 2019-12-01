@@ -17,7 +17,7 @@
                     
                     header {
                         /* Tamaño de la fuente de la cabezera */
-                        font-size: 130%;
+                        font-size: 50px;
                         color: black;
                         /* Color de fondo */
                         background-color: #6e9c6f;
@@ -47,7 +47,7 @@
                         display: block;
                         /* Margen a los botones para separarlos */
                         margin-bottom: 10px;
-                        /* Navegacion lateral fija de altura completa */
+                        /* Navegacion lateral fija en pantalla de ajuste 50% */
                         position: fixed;
                         height: 50%;
                         overflow: auto;
@@ -65,6 +65,11 @@
                     li a:hover {
                         background-color: #6e9c6f;
                         color: white;
+                    }
+                    /* class="h3" alineado en el centro */
+                    
+                    .h3 {
+                        text-align: center;
                     }
                     /* Estilo seccion margen desde la izquierda class="section" */
                     
