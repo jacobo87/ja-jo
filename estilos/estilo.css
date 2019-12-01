@@ -71,7 +71,7 @@
                     .h3 {
                         text-align: center;
                     }
-                    /* Estilo seccion margen desde la izquierda class="section" */
+                    /* Estilo seccion margen de la sección desde la izquierda class="section" */
                     
                     .section {
                         margin-left: 12%;
@@ -101,7 +101,7 @@
                     article h2 {
                         text-align: left;
                     }
-                    /* Estido boton class="button" */
+                    /* Estilo botón class="button" */
                     
                     .button {
                         /* sin borde */
