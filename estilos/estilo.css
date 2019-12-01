@@ -40,7 +40,7 @@
                         /* Tamaño de la caja*/
                         width: 10%;
                         /* Borde en px, tipo y color*/
-                        border: 3px solid #6e9c6f;
+                        border: 5px solid #6e9c6f;
                         /* Tamaño de relleno */
                         padding: 10px;
                         /* bloquea el display */
@@ -86,7 +86,7 @@
                         margin: 20px;
                         padding: 50px;
                         /* Borde, color del borde y grosor */
-                        border: 1px solid #6e9c6f;
+                        border: 5px solid #6e9c6f;
                         border-radius: 7pt;
                     }
                     /* Estilo para h1 del articulo */
@@ -108,9 +108,14 @@
                         margin: 1%;
                         /* margen interior */
                         padding: 1%;
-                        border: 1px solid #6e9c6f;
+                        border: 5px solid #6e9c6f;
                         float: right;
                         width: 37%;
+                    }
+                    /* Estilo para h2 de aside */
+                    
+                    aside h2 {
+                        text-align: center;
                     }
                     /* Estilo contenedor foltante a la derecha class="containet" */
                     
@@ -121,11 +126,6 @@
                         float: right;
                         /* Ancho */
                         width: 60%;
-                    }
-                    /* Estilo para h2 de aside */
-                    
-                    aside h2 {
-                        text-align: center;
                     }
                     /* Estilo botón class="button" */
                     
