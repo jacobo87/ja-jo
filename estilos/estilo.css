@@ -50,7 +50,7 @@
                         /* Margen a los botones para separarlos */
                         margin-bottom: 10px;
                         /* Navegacion lateral fija en pantalla de ajuste 50% */
-                        position: fixed;
+                        position: absolute;
                         height: 50%;
                         overflow: auto;
                     }
@@ -58,14 +58,15 @@
                     
                     li a {
                         display: block;
-                        /* Texto color negro y separacion de 1pixel */
+                        /* Texto color negro y separacion de 1 px */
                         color: black;
+                        font-size: x-large;
                         padding: 1px 10px;
                         text-decoration: none;
                     }
                     
                     li a:hover {
-                        background-color: black;
+                        background-color: #2e5ca6;
                         color: white;
                     }
                     /* class="h3" alineado en el centro */
@@ -77,7 +78,7 @@
                     
                     .section {
                         margin-left: 12%;
-                        margin-right: 25%;
+                        margin-right: 0%;
                     }
                     /* Estilo para el articulo */
                     
@@ -114,18 +115,19 @@
                         border: 1px solid black;
                         float: right;
                         /* Ancho */
-                        width: 37%;
+                        width: 21%;
                     }
+                   
                     /* Estilo contenedor foltante a la derecha class="containet" */
-                    
-                    .container {
-                        /* Margen superior restando para que se eleve */
-                        margin-top: -47%;
-                        /* tipo flotante a la derecha */
-                        float: right;
-                        /* Ancho */
-                        width: 60%;
+                    .containet {
+                        border: 1px solid black;
                     }
+                    /* Columnas */
+                    .column {
+                        float: right;
+                    }
+                    
+
                     /* Estilo para h2 de aside */
                     
                     aside h2 {
