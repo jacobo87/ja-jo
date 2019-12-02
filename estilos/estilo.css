@@ -127,7 +127,9 @@
                     /* Estilo para fieldset  class="caja" */
                     .caja {
                         border: 2px solid #2e5ca6;
+                        margin: 2%;
                     }
+                    
 
                     /* Estilo para h2 de aside */
                     
@@ -141,8 +143,6 @@
                         border: none;
                         /* Tamaño de los margenes */
                         padding: 15px 32px;
-                        /* Tamaño de fuente */
-                        font-size: 16px;
                         /* Color de la fuente */
                         color: white;
                         /* Color de fondo */
@@ -150,6 +150,10 @@
                         /* Alineacion de texto */
                         text-align: center;
                         margin: 2%;
+                    }
+/* Estilo de todos los input */
+                    input, textarea {
+                        font-size: 30px;
                     }
                     /* estilos de pie de página id="pie" */
                     
