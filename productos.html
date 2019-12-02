@@ -15,9 +15,13 @@
     
     </style>
 </head>
+<header>
+        <img src="media/meme.png" title="meme" class="logo">
+            <h1>e-rastrillo</h1> 
+        </header>
 <!--Seccion de Log In. Quizás merezca una edición al CSS-->
 <section id="Login">
-        <fieldset> ¿Ya eres cliente? Inicia sesión y consigue nimios descuentos.
+        <fieldset> <legend>¿Ya eres cliente? Inicia sesión y consigue nimios descuentos.</legend>
 <form method="POST" action="login1.php">
     Nombre: <br>
     <input type="text" name="usuario"/><br>
@@ -26,23 +30,32 @@
     <br/>
     <input type="submit" value="Enviar" />
     </fieldset>
+    
+    <fieldset> <legend>Tu carrito de la compra</legend>
     <!--Panel de búsqueda-->
     <label class="margin" for="i-busqueda">Encuentra grandes ofertas</label>
         <input type="search" id="i-busqueda" name="busqueda" required>
         <!--Venta a granel-->
-        <label for="i-numero">Realiza tu pedido </label>
+        <label for="i-numero">Unidades </label>
         <input type="number" id="i-numero" min="0" max="50" name="numero">
 
     <!--Opciones de pago-->
-    <select name="forma_de_pago"> Selecciona tu forma de pago
+    <select name="forma_de_pago"> 
+        
             <option value="o1">Tarjeta de crédito</option>
             <option value="o2">PayPal</option>
-            <option value="o3" select>Bitcoin</option>
+            <option value="o3" >Bitcoin </option>
+            <option value="o4" select disabled>Selecciona tu forma de pago</option>
+
+
         </select>
 
     <!--Botones finales cesta de la compra-->
     <input type="submit" value="Enviar" />
-
+</fieldset>
+<!--Buzón de sugerencias. NO TEXT AREA QUE ES UNA MIERDA-->
+¿No ves nada que te guste? Cuéntanos qué te gustaría adquirir a precio desorbitado <br>
+            <textarea rows="5" cols="60" name="sugerencias"></textarea>
 </form>
 </section>
 
