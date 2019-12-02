@@ -25,6 +25,7 @@
                         background-color: #2e5ca6;
                         /* Borde de un 1px con color y separacion */
                         border: 1px solid #2e5ca6;
+                        border-bottom: 5px solid black;
                         padding: 2%;
                         text-decoration: underline;
                     }
@@ -32,6 +33,13 @@
                     
                     header h1 {
                         text-align: center;
+                        font-size: 150%;
+                    }
+
+                    /* Estilo imagen en header */
+                    .logo {
+                        width: 300px;
+                        float: left;
                     }
                     /* estilos para la barra de navegacion */
                     
@@ -47,11 +55,13 @@
                         padding: 10px;
                         /* bloquea el display */
                         display: block;
+                        /* margen respecto a la izq */
+                        margin-left: 3px;
                         /* Margen a los botones para separarlos */
                         margin-bottom: 10px;
                         /* Navegacion lateral fija en pantalla de ajuste 50% */
                         position: absolute;
-                        height: 50%;
+                        height: 80%;
                         overflow: auto;
                     }
                     /* Estilo solo para los li a */
@@ -106,29 +116,18 @@
                     article h2 {
                         text-align: left;
                     }
-                    /* Estilo para aside class="aside" */
-                    
-                    .aside {
-                        /* margen exterior */
-                        margin: 1%;
-                        /* margen interior */
-                        padding: 1%;
-                        /* Borde, tipo y color */
-                        border: 1px solid black;
-                        float: right;
-                        /* Ancho */
-                        width: 21%;
-                    }
-                   
-                    /* Estilo contenedor foltante a la derecha class="containet" */
-                    .containet {
-                        border: 1px solid black;
-                    }
-                    /* Columnas */
-                    .column {
-                        float: right;
+                    /* Estilo para aside class="comentario" */
+                    .comentario {
+                        font-size: xx-large;
+                        align-items: center;
                     }
                     
+
+                    
+                    /* Estilo para fieldset  class="caja" */
+                    .caja {
+                        border: 2px solid;
+                    }
 
                     /* Estilo para h2 de aside */
                     
