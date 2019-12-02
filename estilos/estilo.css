@@ -164,4 +164,5 @@
                         /* Crea un borde con una separación interior del 2% */
                         border-top: 1px solid black;
                         padding: 2%;
+                        clear: both;
                     }
