@@ -116,28 +116,13 @@
                     article h2 {
                         text-align: left;
                     }
-                    /* Estilo para aside class="aside" */
+                    /* Estilo para aside class="comentario" */
+                    .comentario {
+                        font-size: xx-large;
+                        align-items: center;
+                    }
                     
-                    .aside {
-                        /* margen exterior */
-                        margin: 1%;
-                        /* margen interior */
-                        padding: 1%;
-                        /* Borde, tipo y color */
-                        border: 1px solid black;
-                        float: right;
-                        /* Ancho */
-                        width: 21%;
-                    }
-                   
-                    /* Estilo contenedor foltante a la derecha class="containet" */
-                    .containet {
-                        border: 1px solid black;
-                    }
-                    /* Columnas */
-                    .column {
-                        float: right;
-                    }
+
                     
                     /* Estilo para fieldset  class="caja" */
                     .caja {
