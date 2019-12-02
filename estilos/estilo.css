@@ -6,8 +6,9 @@
                     /* Estilo para body de la página */
                     
                     body {
+                        /* tipo de fuente */
                         font: 24px Helvetica;
-                        /* Color de fondo */
+                        /* Color de fondo y color de la fuente */
                         background: #e0deda;
                         color: black;
                         /* Tamaño de margen para body */
@@ -16,13 +17,14 @@
                     /* estilos para el encabezado página */
                     
                     header {
-                        /* Tamaño de la fuente de la cabezera */
+                        /* Tamaño y tipo de fuente de la cabezera */
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                         font-size: 50px;
-                        color: black;
+                        color: whitesmoke;
                         /* Color de fondo */
-                        background-color: #6e9c6f;
+                        background-color: #2e5ca6;
                         /* Borde de un 1px con color y separacion */
-                        border: 1px solid #6e9c6f;
+                        border: 1px solid #2e5ca6;
                         padding: 2%;
                         text-decoration: underline;
                     }
@@ -40,7 +42,7 @@
                         /* Tamaño de la caja*/
                         width: 10%;
                         /* Borde en px, tipo y color*/
-                        border: 3px solid #6e9c6f;
+                        border: 3px solid black;
                         /* Tamaño de relleno */
                         padding: 10px;
                         /* bloquea el display */
@@ -63,7 +65,7 @@
                     }
                     
                     li a:hover {
-                        background-color: #6e9c6f;
+                        background-color: black;
                         color: white;
                     }
                     /* class="h3" alineado en el centro */
@@ -86,7 +88,7 @@
                         margin: 20px;
                         padding: 50px;
                         /* Borde, color del borde y grosor */
-                        border: 1px solid #6e9c6f;
+                        border: 1px solid black;
                         border-radius: 7pt;
                     }
                     /* Estilo para h1 del articulo */
@@ -108,8 +110,10 @@
                         margin: 1%;
                         /* margen interior */
                         padding: 1%;
-                        border: 1px solid #6e9c6f;
+                        /* Borde, tipo y color */
+                        border: 1px solid black;
                         float: right;
+                        /* Ancho */
                         width: 37%;
                     }
                     /* Estilo contenedor foltante a la derecha class="containet" */
@@ -139,7 +143,7 @@
                         /* Color de la fuente */
                         color: white;
                         /* Color de fondo */
-                        background-color: #6e9c6f;
+                        background-color: #2e5ca6;
                         /* Alineacion de texto */
                         text-align: center;
                         margin: 3%;
@@ -150,7 +154,7 @@
                         /* Color y alineación del texto */
                         color: black;
                         text-align: center;
-                        /* Crea un borde con una separación del 2% */
-                        border: 1px solid #6e9c6f;
+                        /* Crea un borde con una separación interior del 2% */
+                        border: 1px solid black;
                         padding: 2%;
                     }
