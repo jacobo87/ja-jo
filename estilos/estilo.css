@@ -126,7 +126,7 @@
                     
                     /* Estilo para fieldset  class="caja" */
                     .caja {
-                        border: 2px solid;
+                        border: 2px solid #2e5ca6;
                     }
 
                     /* Estilo para h2 de aside */
@@ -149,7 +149,7 @@
                         background-color: #2e5ca6;
                         /* Alineacion de texto */
                         text-align: center;
-                        margin: 3%;
+                        margin: 2%;
                     }
                     /* estilos de pie de página id="pie" */
                     
@@ -158,6 +158,6 @@
                         color: black;
                         text-align: center;
                         /* Crea un borde con una separación interior del 2% */
-                        border: 1px solid black;
+                        border-top: 1px solid black;
                         padding: 2%;
                     }
