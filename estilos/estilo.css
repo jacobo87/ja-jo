@@ -32,7 +32,7 @@
                     /* Estilo para h1 */
                     
                     header h1 {
-                        text-align: center;
+                        text-align: left;
                         font-size: 150%;
                     }
                     /* Estilo imagen en header */
@@ -44,13 +44,13 @@
                     /* estilos para la barra de navegacion */
                     
                     nav ul {
-                        background: #e0deda;
+                        background: white;
                         /* Tipo de letra */
                         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                         /* Tamaño de la caja*/
                         width: 10%;
                         /* Borde en px, tipo y color*/
-                        border: 5px solid #6e9c6f;
+                        border: 5px solid #2e5ca6;
                         /* Tamaño de relleno */
                         padding: 10px;
                         /* bloquea el display */
@@ -114,12 +114,6 @@
                     article h2 {
                         text-align: left;
                     }
-                    /* Estilo para aside class="comentario" */
-                    
-                    .comentario {
-                        font-size: xx-large;
-                        align-items: center;
-                    }
                     /* Estilo para fieldset  class="caja" */
                     
                     .caja {
@@ -148,8 +142,9 @@
                     }
                     /* Estilo para select class="opciones" */
                     
-                    .opciones {
+                    .option {
                         padding: 12px 30px;
+                        font-size: 12px 30px;
                     }
                     /* Estilo de todos los input */
                     
