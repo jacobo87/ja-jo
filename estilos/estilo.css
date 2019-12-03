@@ -38,7 +38,7 @@
                     /* Estilo imagen en header */
                     
                     .logo {
-                        width: 300px;
+                        width: 250px;
                         float: left;
                     }
                     /* estilos para la barra de navegacion */
@@ -61,7 +61,7 @@
                         margin-bottom: 10px;
                         /* Navegacion lateral fija en pantalla de ajuste 50% */
                         position: absolute;
-                        height: 60%;
+                        height: 80%;
                         overflow: auto;
                     }
                     /* Estilo solo para los li a */
