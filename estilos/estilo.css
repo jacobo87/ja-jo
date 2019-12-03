@@ -151,8 +151,12 @@
                         text-align: center;
                         margin: 2%;
                     }
-/* Estilo de todos los input */
-                    input, textarea {
+                    /* Estilo para select class="opciones" */
+                    .opciones{
+                    padding: 12px 30px;
+                    }
+                    /* Estilo de todos los input */
+                    input, textarea, option {
                         font-size: 30px;
                     }
                     /* estilos de pie de página id="pie" */
