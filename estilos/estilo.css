@@ -61,7 +61,7 @@
                         margin-bottom: 10px;
                         /* Navegacion lateral fija en pantalla de ajuste 50% */
                         position: absolute;
-                        height: 80%;
+                        height: 60%;
                         overflow: auto;
                     }
                     /* Estilo solo para los li a */
