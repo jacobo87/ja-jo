@@ -9,8 +9,8 @@
     <style>
         .margin {
             margin: 1%;
- }
-    
+            margin-top: 2%;
+        }
     </style>
 </head>
 <header>
@@ -19,33 +19,32 @@
 </header>
 <!--Seccion de Log In. Quizás merezca una edición al CSS-->
 <section id="Login">
-        <fieldset> ¿Ya eres cliente? Inicia sesión y consigue nimios descuentos.
-<form method="POST" action="login1.php">
-    Nombre: <br>
-    <input type="text" name="usuario"/><br>
-    Contraseña: <br>
-    <input type="password" name="contrasenya" placeholder="Seis dígitos"/>
-    <br/>
-    <input type="submit" value="Enviar" />
+    <fieldset> ¿Ya eres cliente? Inicia sesión y consigue nimios descuentos.
+        <form method="POST" action="login1.php">
+            Nombre: <br>
+            <input type="text" name="usuario" /><br> Contraseña: <br>
+            <input type="password" name="contrasenya" placeholder="Seis dígitos" />
+            <br/>
+            <input type="submit" value="Login" />
     </fieldset>
     <!--Panel de búsqueda-->
     <label class="margin" for="i-busqueda">Encuentra grandes ofertas</label>
-        <input type="search" id="i-busqueda" name="busqueda" required>
-        <!--Venta a granel-->
-        <label for="i-numero">Realiza tu pedido </label>
-        <input type="number" id="i-numero" min="0" max="50" name="numero">
+    <input type="search" id="i-busqueda" name="busqueda" required>
+    <!--Venta a granel-->
+    <label for="i-numero">Realiza tu pedido </label>
+    <input type="number" id="i-numero" min="0" max="50" name="numero" class="margin">
 
     <!--Opciones de pago-->
-    <select name="forma_de_pago" class="opciones"> Selecciona tu forma de pago
-            <option value="o1">Tarjeta de crédito</option>
-            <option value="o2">PayPal</option>
+    <select name="forma_de_pago" class="option"> Selecciona tu forma de pago
+            <option value="o1" >Tarjeta de crédito</option>
+            <option value="o2" >PayPal</option>
             <option value="o3" select>Bitcoin</option>
         </select>
 
     <!--Botones finales cesta de la compra-->
     <input type="submit" value="Enviar" />
 
-</form>
+    </form>
 </section>
 
 
