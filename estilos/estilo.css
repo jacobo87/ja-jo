@@ -9,7 +9,7 @@
                         /* tipo de fuente */
                         font: 24px Helvetica;
                         /* Color de fondo y color de la fuente */
-                        background: #e0deda;
+                        background: whitesmoke;
                         color: black;
                         /* Tamaño de margen para body */
                         margin: 0;
@@ -22,10 +22,11 @@
                         font-size: 50px;
                         color: whitesmoke;
                         /* Color de fondo */
-                        background-color: #2e5ca6;
+                        background-color: #141313;
                         /* Borde de un 1px con color y separacion */
-                        border: 1px solid #2e5ca6;
-                        border-bottom: 5px solid black;
+                        border: 1px solid #141313;
+                        border-bottom: 5px solid #fa1616;
+                        ;
                         padding: 2%;
                         text-decoration: underline;
                     }
@@ -44,13 +45,15 @@
                     /* estilos para la barra de navegacion */
                     
                     nav ul {
-                        background: white;
+                        color: white;
+                        /* Color de fondo */
+                        background: #141313;
                         /* Tipo de letra */
                         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                         /* Tamaño de la caja*/
                         width: 10%;
                         /* Borde en px, tipo y color*/
-                        border: 5px solid #2e5ca6;
+                        border: 5px solid #fa1616;
                         /* Tamaño de relleno */
                         padding: 10px;
                         /* bloquea el display */
@@ -59,17 +62,18 @@
                         margin-left: 3px;
                         /* Margen a los botones para separarlos */
                         margin-bottom: 10px;
-                        /* Navegacion lateral fija en pantalla de ajuste 50% */
+                        /* Navegacion lateral fija en pantalla de ajuste 80% */
                         position: absolute;
-                        height: 80%;
+                        height: 75%;
                         overflow: auto;
+                        width: 12%;
                     }
                     /* Estilo solo para los li a */
                     
                     li a {
                         display: block;
-                        /* Texto color negro y separacion de 1 px */
-                        color: black;
+                        /* Texto color y separacion de 1 px */
+                        color: whitesmoke;
                         font-size: x-large;
                         padding: 1px 10px;
                         text-decoration: none;
@@ -95,7 +99,7 @@
                     .h1 {
                         text-align: center;
                         font-size: 300%;
-                        color: #5c0f0f;
+                        color: black;
                     }
                     /* Estilo para el articulo */
                     
@@ -103,7 +107,7 @@
                         /* Posicion  "absoluta" respecto a la página */
                         position: relative;
                         /* Posición del artículo */
-                        margin: 20px;
+                        margin: 40px;
                         padding: 50px;
                         /* Borde, color del borde y grosor */
                         border: 5px solid black;
@@ -142,7 +146,7 @@
                         /* Color de la fuente */
                         color: white;
                         /* Color de fondo */
-                        background-color: #2e5ca6;
+                        background-color: #fa1616;
                         /* Alineacion de texto */
                         text-align: center;
                         margin: 2%;
@@ -163,11 +167,14 @@
                     /* estilos de pie de página id="pie" */
                     
                     #pie {
+                        width: auto;
+                        /* Color de fondo */
+                        background-color: #141313;
                         /* Color y alineación del texto */
-                        color: black;
+                        color: whitesmoke;
                         text-align: center;
                         /* Crea un borde con una separación interior del 2% */
-                        border-top: 8px solid black;
+                        border-top: 8px solid #fa1616;
                         padding: 2%;
                         clear: both;
                     }
