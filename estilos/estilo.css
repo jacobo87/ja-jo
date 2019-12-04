@@ -64,7 +64,7 @@
                         margin-bottom: 10px;
                         /* Navegacion lateral fija en pantalla de ajuste 80% */
                         position: absolute;
-                        height: 75%;
+                        height: 800px;
                         overflow: auto;
                         width: 12%;
                     }
