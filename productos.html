@@ -11,11 +11,12 @@
             margin: 1%;
             margin-top: 2%;
         }
+
         /* Efecto cutre para los productos */
         img:hover {
             -webkit-transform: scaleX(-1);
             transform: scaleX(-1);
-        }        
+        }
     </style>
 </head>
 <header>
@@ -59,35 +60,43 @@
 <section class="section">
     <article>
         <fieldset>
-            <legend> ¿Ya eres cliente? Inicia sesión y consigue nimios descuentos.</legend>
+            <legend> ¿Ya eres cliente? Inicia sesión.</legend>
             <form method="POST" action="login1.php">
                 Nombre: <br>
                 <input type="text" name="usuario" /><br>
                 Contraseña: <br>
-                <input type="password" name="contrasenya" placeholder="Introduce tu contraseña de seis dígitos" />
+                <input type="password" name="contrasenya" placeholder="Introduce tu contraseña." />
                 <br />
                 <input type="submit" value="Login" />
         </fieldset>
-    </article>
+    </article>   
     <article>
-        <label class="margin" for="i-busqueda">Encuentra grandes ofertas</label>
-        <input type="search" id="i-busqueda" name="busqueda" required>
-    </article>
-    <article>
+        <form class="buscador_clase">
+                      <input type="text" id="buscador" placeholder="¿Qué chorrada buscas?">
+                      <a href="#"><img class="buscador_icono" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+                    </form> <br>
         <fieldset>
             <legend> Sudadera de estudiante de ASIR</legend>
             <img src="media/asir.jpg" title="sudadera" class="prod" alt="Sudadera excesiva">
             <p>Una sudadera especialmente diseñada para distraerte de mundanales distracciones. ¡Adiós novia, adiós
                 perro,
-                adiós vida! ¡Ese puesto en Jazztel será mío!</p>
+                adiós vida! ¡Ese puesto en Jazztel será mío!
+                <br>
+                <br>
+            <div class="precio"> 19.99€
+
+            </div>
             <label for="i-numero">Nº Unidades </label>
-            <input type="number" id="i-numero" min="0" max="50" name="numero" class="margin">
+            <input type="number" id="i-numero" min="0" max="50" name="numero" class="margin"></p>
         </fieldset>
         <fieldset>
             <legend> Juego de mesa BIG FOOT</legend>
             <img src="media/bigfoot.jpg" title="bigfoot" class="prod" alt="Juego mesa piesgrandes">
-            <p>Un juego de mesa para toda la familia. Incluye <em>inquietante</em> disfraz XXL de pelo de ñú para
-                interpretar al legendario PiesGrandes. Diversión no incluida.</p>
+            <p>Juego de mesa para toda la familia. Incluye <em>inquietante</em> disfraz XXL de pelo de ñú para
+                interpretar a PiesGrandes. Diversión no incluida.</p>
+            <div class="precio"> 25.99€
+
+            </div>
             <label for="i-numero">Nº Unidades </label>
             <input type="number" id="i-numero" min="0" max="50" name="numero" class="margin">
         </fieldset>
@@ -99,6 +108,9 @@
                 roñosos en este enfriador de fideos. Porque lo que te faltaba ya es una quemadura en el cielo de la
                 boca.
                 ¡Esmayao!</p>
+            <div class="precio"> 1.99€
+
+            </div>
             <label for="i-numero">Nº Unidades </label>
             <input type="number" id="i-numero" min="0" max="50" name="numero" class="margin">
         </fieldset>
@@ -108,17 +120,25 @@
             <p>Aunque su peculiar diseño perjudicó a su popularidad, el 'viaje mágico de pikachu' es una reliquia entre
                 coleccionistas. Instálalo en la puerta de tu casa y te garantizamos que ningún niño volverá a molestarte
                 en
-                Halloween.</p>
+                Halloween.
+                <br>
+                <br>                 
+            <div class="precio"> 120.99€
+
+            </div>
             <label for="i-numero">Nº Unidades </label>
-            <input type="number" id="i-numero" min="0" max="50" name="numero" class="margin">
+            <input type="number" id="i-numero" min="0" max="50" name="numero" class="margin"></p>
         </fieldset>
         <fieldset>
             <legend> Yorkie-o-poly</legend>
             <img src="media/yorkie.jpg" title="Yorkshire" class="prod" alt="Monopoly con perritos">
             <p>¿Qué pasaría si juntáramos el juego de mesa que rompe amistades y la raza de perro que arruina
                 matrimonios?
-                ¡El Yorkie-o-poly! Cada vez que lances los dados se iniciará una sencuencia de irritantes y repetitivos
+                ¡El Yorkie-o-poly! Cada vez que lances los dados se iniciará una secuencia de irritantes y repetitivos
                 ladridos de un minuto y medio. ¡El regalo perfecto para tu peor enemigo!</p>
+            <div class="precio"> 39.99€
+
+            </div>
             <label for="i-numero">Nº Unidades </label>
             <input type="number" id="i-numero" min="0" max="50" name="numero" class="margin">
         </fieldset>
@@ -130,6 +150,9 @@
                 zapatillas de castidad y conviértete en la sensación de la paella del domingo con el Prêt-à-porter de
                 los
                 rancios.</p>
+            <div class="precio"> 10.99€
+
+            </div>
             <label for="i-numero">Nº Unidades </label>
             <input type="number" id="i-numero" min="0" max="50" name="numero" class="margin">
         </fieldset>
