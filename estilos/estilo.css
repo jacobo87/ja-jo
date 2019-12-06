@@ -36,6 +36,7 @@
                         text-align: left;
                         font-size: 150%;
                     }
+                    
                     /* Estilo imagen en header */
                     
                     .logo {
@@ -43,7 +44,11 @@
                         float: left;
                     }
                     /* estilos para la barra de navegacion */
-                    
+                    .prod {
+                        width: 250px;
+                        float: left;
+                    }
+                    /* estilos para imágenes de productos */
                     nav ul {
                         color: white;
                         /* Color de fondo */
@@ -101,8 +106,19 @@
                         font-size: 300%;
                         color: black;
                     }
-                    /* Estilo para el articulo */
-                    
+                   
+                        /* Estilo para la leyenda del fieldset */
+                    legend {
+                        text-align: center;
+                        font-size: 150%;
+                        color:black;
+                        background-color: #FFFFFF;
+                        /*Borde externo*/
+                        border-style: double;
+                        border: 3px solid #000000;                        
+                        padding: 2%
+                    }
+                     /* Estilo para el articulo */
                     article {
                         /* Posicion  "absoluta" respecto a la página */
                         position: relative;
