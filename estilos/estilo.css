@@ -45,8 +45,14 @@
                     }
                     /* estilos para la barra de navegacion */
                     .prod {
-                        width: 250px;
+                        width: 300px;
                         float: left;
+                    }
+                    .acerca {
+                        width: 350px;
+                        float: left;
+                        border-radius: 50%;
+                        
                     }
                     /* estilos para imágenes de productos */
                     nav ul {
