@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Nuestros productos</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="ASIR" />
+    <link rel="stylesheet" type="text/css" href="estilos/estilo.css">
+    <style>
+        .margin {
+            margin: 1%;
+            margin-top: 2%;
+        }
+        /* Efecto cutre para los productos */
+        
+        img:hover {
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+    </style>
+</head>
+<header>
+    <img src="media/pcbolsa.png" title="pcbolsa" class="logo">
+    <h1>Productos</h1>
+</header>
+<nav>
+    <ul>
+        <h3 class="h3">Menú</h3>
+        <li><a href="index.html">Página principal</a></li>
+        <li><a href="acercade.html">Acerca de</a></li>
+        <h3>Contacto</h3>
+        <li>
+            <a href="https://www.gmail.com" target="_blank"><img src="media/gmail_logo.png" title="gmail" width="46px"></a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com" target="_blank"><img src="media/FB.png" title="Facebook" width="46px"></a>
+        </li>
+        <li>
+            <a href="https://www.twitter.com" target="_blank"><img src="media/twitter-logo.png" title="twitter" width="46px"></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com" target="_blank"><img src="media/linkedin-logo.png" title="linkedin" width="46px"></a>
+        </li>
+        <br>
+        <li>
+            <img src="media/whatsapp.png" title="whatsapp" width="46px">
+            <br>
+            <p style="color: whitesmoke;"><strong>666 666 666</strong></p>
+        </li>
+        <li>
+            <img src="media/guiño.gif" title="guiño" width="220px">
+        </li>
+    </ul>
+</nav>
+<!--Seccion de Log In. Quizás merezca una edición al CSS-->
+<section class="section">
+    <article>
+        <fieldset>
+            <legend> ¿Ya eres cliente? Inicia sesión.</legend>
+            <form method="POST" action="login1.php">
+                Nombre: <br>
+                <input type="text" name="usuario" /><br> Contraseña: <br>
+                <input type="password" name="contrasenya" placeholder="Introduce tu contraseña." />
+                <br />
+                <input type="submit" value="Login" />
+        </fieldset>
+    </article>
+    <article>
+        <form class="buscador_clase">
+            <input type="text" id="buscador" placeholder="¿Qué chorrada buscas?">
+            <a href="#"><img class="buscador_icono" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+        </form> <br>
+        <fieldset>
+            <legend> Sudadera de estudiante de ASIR</legend>
+            <img src="media/asir.jpg" title="sudadera" class="prod" alt="Sudadera excesiva">
+            <p>Una sudadera especialmente diseñada para distraerte de mundanales distracciones. ¡Adiós novia, adiós perro, adiós vida! ¡Ese puesto en Jazztel será mío!
+                <br>
+                <br>
+                <div class="precio"> 19.99€
+
+                </div>
+                <label for="i-numero">Nº Unidades </label>
+                <input type="number" id="i-numero" min="0" max="50" name="numero" class="margin"></p>
+        </fieldset>
+        <fieldset>
+            <legend> Juego de mesa BIG FOOT</legend>
+            <img src="media/bigfoot.jpg" title="bigfoot" class="prod" alt="Juego mesa piesgrandes">
+            <p>Juego de mesa para toda la familia. Incluye <em>inquietante</em> disfraz XXL de pelo de ñú para interpretar a PiesGrandes. Diversión no incluida.</p>
+            <div class="precio"> 25.99€
+
+            </div>
+            <label for="i-numero">Nº Unidades </label>
+            <input type="number" id="i-numero" min="0" max="50" name="numero" class="margin">
+        </fieldset>
+        <fieldset>
+            <legend> Enfriador de fideos instantáneos</legend>
+            <img src="media/fideos.jpg" title="fideos" class="prod" alt="Enfriador de fideos">
+            <p>¿Eres un inútil en la cocina y no tienes dinero para pagarte una dieta saludable? Gasta tus últimos céntimos roñosos en este enfriador de fideos. Porque lo que te faltaba ya es una quemadura en el cielo de la boca. ¡Esmayao!
+            </p>
+            <div class="precio"> 1.99€
+
+            </div>
+            <label for="i-numero">Nº Unidades </label>
+            <input type="number" id="i-numero" min="0" max="50" name="numero" class="margin">
+        </fieldset>
+        <fieldset>
+            <legend> Atracción infantil Pikachu</legend>
+            <img src="media/pika.jpg" title="pikachu" class="prod" alt="Pikachu escalofriante">
+            <p>Aunque su peculiar diseño perjudicó a su popularidad, el 'viaje mágico de pikachu' es una reliquia entre coleccionistas. Instálalo en la puerta de tu casa y te garantizamos que ningún niño volverá a molestarte en Halloween.
+                <br>
+                <br>
+                <div class="precio"> 120.99€
+
+                </div>
+                <label for="i-numero">Nº Unidades </label>
+                <input type="number" id="i-numero" min="0" max="50" name="numero" class="margin"></p>
+        </fieldset>
+        <fieldset>
+            <legend> Yorkie-o-poly</legend>
+            <img src="media/yorkie.jpg" title="Yorkshire" class="prod" alt="Monopoly con perritos">
+            <p>¿Qué pasaría si juntáramos el juego de mesa que rompe amistades y la raza de perro que arruina matrimonios? ¡El Yorkie-o-poly! Cada vez que lances los dados se iniciará una secuencia de irritantes y repetitivos ladridos de un minuto y medio.
+                ¡El regalo perfecto para tu peor enemigo!</p>
+            <div class="precio"> 39.99€
+
+            </div>
+            <label for="i-numero">Nº Unidades </label>
+            <input type="number" id="i-numero" min="0" max="50" name="numero" class="margin">
+        </fieldset>
+        <fieldset>
+            <legend> Zapapietillas</legend>
+            <img src="media/zapatos.jpg" title="zapatillas" class="prod" alt="Zapatillas con forma de pie">
+            <p>El amor no es para siempre. Dile a tu pareja que solo seguís juntos por el bienestar de los niños con estas zapatillas de castidad y conviértete en la sensación de la paella del domingo con el Prêt-à-porter de los rancios.
+            </p>
+            <div class="precio"> 10.99€
+
+            </div>
+            <label for="i-numero">Nº Unidades </label>
+            <input type="number" id="i-numero" min="0" max="50" name="numero" class="margin">
+        </fieldset>
+    </article>
+
+    <article>
+        <!--Opciones de pago-->
+        <select name="forma_de_pago" class="option">
+            <option value="o1">Tarjeta de crédito</option>
+            <option value="o2">PayPal</option>
+            <option value="o3">Bitcoin</option>
+            <option value="o3" selected disabled >Selecciona tu forma de pago</option>
+        </select>
+
+        <!--Botones finales cesta de la compra-->
+        <button type="button" onclick="alert('Esta función no está disponible temporalmente, prueba de nuevo en un par de años.')">Realizar
+            pedido</button>
+
+        </form>
+    </article>
+</section>
+<button class="button"><a href="index.html">Inicio</a></button>
+<footer>
+    <p id="pie">Jacobo & Jose Copyright &copy; 2019 ASIR</p>
+</footer>
+</body>
+
+</html>

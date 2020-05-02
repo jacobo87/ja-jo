@@ -1,0 +1,177 @@
+/* Pseudoclases */
+
+
+/* Pasar ratón por encima */
+
+a:hover {
+    color: yellow;
+    background-color: black;
+}
+
+
+/*enlace sin visitar */
+
+a:link {
+    color: red;
+}
+
+
+/*enlace ya visitado */
+
+a:visited {
+    color: grey;
+}
+
+
+/*Mientras pulso*/
+
+a:active {
+    text-decoration: none;
+}
+
+
+/* Cuando tiene el foco */
+
+a:focus {
+    font-weight: bold;
+}
+
+
+/* formularios */
+
+#input-1:focus {
+    background-color: salmon;
+}
+
+#input-2:focus {
+    background-color: salmon;
+}
+
+
+/* Mostrar un input en cada linea */
+
+input {
+    display: block;
+    /* margen con lo que tengo a mi alrededor */
+    margin-bottom: 10px;
+}
+
+
+/* Borde para el legend */
+
+legend {
+    /* ancho-estilo-color */
+    border: 1px solid blue;
+}
+
+
+/** Espacio de un contenedor respecto a su contenido **/
+
+fieldset {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+nav ul li {
+    /* Tipo de letra */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Tamaño de la caja*/
+    width: 10%;
+    /* Borde en px, tipo y color*/
+    border: 3px solid #d69209;
+    /* Tamaño de relleno */
+    padding: 10px;
+    /* bloquea el display */
+    display: block;
+    /* Margen a los botones para separarlos */
+    margin-bottom: 10px;
+    /* Navegacion lateral fija de altura completa */
+    position: fixed;
+    height: 70%;
+    overflow: auto;
+}
+
+
+/* Estilo solo para los li a */
+
+li a {
+    display: block;
+    /* Texto color negro y separacion de 1pixel */
+    color: white;
+    padding: 1px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #d69209;
+    color: white;
+}
+
+/* Buscador de productos */
+body{
+    padding-top: 75px;
+  }
+  
+  .search-container{
+    width: 490px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  input#search-bar{
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    &:focus{
+      border: 1px solid #008ABF;
+      transition: 0.35s ease;
+      color: #008ABF;
+      &::-webkit-input-placeholder{
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &::-moz-placeholder {
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &:-ms-placeholder {
+       transition: opacity 0.45s ease; 
+         opacity: 0;
+       }    
+     }
+   }
+  
+  .buscador_icono{
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 75px;
+    top: -62px;
+    right: -45px;
+  }
